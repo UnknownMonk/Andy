@@ -35,8 +35,8 @@ export default buildConfig({
       slug: 'users',
       auth: true,
       access: {
-        delete: () => false,
-        update: () => false,
+        delete: () => true,
+        update: () => true,
       },
       fields: [],
     },
